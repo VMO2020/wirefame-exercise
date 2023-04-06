@@ -9,8 +9,8 @@
 /* General */
 
 html {
-	min-width: 320px;
-	max-width: 1200px;
+	/* min-width: 320px;
+	max-width: 1200px; */
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem; /* 16px */
 	font-weight: 400;
@@ -22,8 +22,10 @@ html {
 }
 
 body {
+	min-width: 320px;
+	max-width: 1200px;
 	background-color: var(--wht);
-	margin: 0.2rem 0;
+	margin: 0.2rem auto;
 }
 
 /* Fonts */
