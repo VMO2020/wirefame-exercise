@@ -3,6 +3,7 @@
 	--bg: black;
 	--fg: rgba(255, 255, 255, 0.689);
 	--main: grey;
+	--wht: white;
 }
 
 /* General */
@@ -17,6 +18,12 @@ html {
 	letter-spacing: 0.01em;
 	margin: 0 auto;
 	scroll-behavior: smooth;
+	background-color: var(--bg);
+}
+
+body {
+	background-color: var(--wht);
+	margin: 0.2rem 0;
 }
 
 /* Fonts */
@@ -72,6 +79,7 @@ p.text {
 	height: 150px;
 	background-color: var(--bg);
 	margin: 1rem 0;
+	border: 1px solid var(--fg);
 }
 
 /* Buttons & Links */
