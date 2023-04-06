@@ -10,4 +10,6 @@
 
 ### Exercise info
 
+![wireframe-comp](images/wireframe-comp.png)
+
 ![wireframe-annotated](images/wireframe-annotated.png)
