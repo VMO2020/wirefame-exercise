@@ -24,6 +24,7 @@ html {
 h3.featured-text {
 	font-size: clamp(1.2rem, 3vw, 2.2rem);
 	font-weight: 700;
+	margin-bottom: 0.5em;
 }
 
 p {
@@ -35,6 +36,9 @@ p {
 p.text {
 	font-size: clamp(0.8rem, 2vw, 1.6rem);
 	color: black;
+	max-height: 300px;
+	overflow: auto;
+	margin-bottom: 0.6em;
 }
 
 .logo,
@@ -83,7 +87,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.5rem 1rem;
+	padding: 1rem;
 	color: var(--fg);
 	background-color: var(--main);
 }
