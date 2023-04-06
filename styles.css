@@ -9,8 +9,6 @@
 /* General */
 
 html {
-	/* min-width: 320px;
-	max-width: 1200px; */
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem; /* 16px */
 	font-weight: 400;
@@ -98,6 +96,12 @@ button {
 	border-radius: 0.5em;
 	color: var(--fg);
 	background-color: var(--bg);
+}
+
+a:hover,
+button:hover {
+	color: orange;
+	scale: 1.1;
 }
 
 /* Layout */
