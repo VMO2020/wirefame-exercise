@@ -38,7 +38,7 @@ samp,
 small,
 strike,
 strong,
-sub,
+/* sub, */
 /* sup, */
 tt,
 var,
@@ -108,12 +108,9 @@ section {
 }
 
 /* General settings */
-* {
-	box-sizing: border-box;
-}
-
-::before,
-::after {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
@@ -156,4 +153,11 @@ a {
 
 button {
 	cursor: pointer;
+}
+
+textarea,
+input,
+div,
+button {
+	outline: none;
 }
